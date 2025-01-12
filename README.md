@@ -1,5 +1,14 @@
 # Simple FTP server
 
+## Start
+
+```bash
+./create_test_files.sh
+cd cmd && go run main.go
+```
+
+Now you can connect to an ftp server on localhost:8080 with ftp client.
+
 ### This FTP server allows users to:
 
 * **Download files** from the FTP server.

@@ -19,6 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to create listener, err: %v", err)
 	}
+	log.Println("server started on", ln.Addr().String())
 	log.Printf("server is ready to accept connections")
 
 	for {

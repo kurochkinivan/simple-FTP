@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Проверка, указана ли целевая директория
-TARGET_DIR=${1:-test_env}
+TARGET_DIR=${1:-public}
 
 # Создаем целевую директорию, если она не существует
 mkdir -p "$TARGET_DIR"
